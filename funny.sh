@@ -1,8 +1,8 @@
 #!/bin/bash
 #save as funny.sh
 
-if [ "$#" -ge 0 ];then
+if [ "$#" -gt 0 ];then                  # $# > 0
         echo "This is funny"
-else
+else                                    # $# <=0
         echo "This is NOT funny"
 fi
